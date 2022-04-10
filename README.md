@@ -1,5 +1,5 @@
 # **易班打卡** 
-大理大学易班每日健康申报
+易班每日健康申报
 ## *依赖库*
 + *`pip install requests`*
 + *`pip install beautifulsoup4`*

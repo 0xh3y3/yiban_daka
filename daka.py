@@ -54,9 +54,9 @@ def SmtpSpend():
     f = open('DKresult_list.txt', 'r')
     content = f.read()
     f.close()
-    sender = "grabwr@163.com"  # 发送方
-    recver = "2579290631@qq.com"  # 接收方
-    password = "JNSLAZGCKHJKZVOJ"  # 邮箱密码
+    sender = ""  # 发送方
+    recver = ""  # 接收方
+    password = ""  # 邮箱密码
     message = MIMEText(content, "plain", "utf-8")  # content 发送内容     "plain"文本格式   utf-8 编码格式
     message['Subject'] = subject  # 邮件标题
     message['To'] = recver  # 收件人
